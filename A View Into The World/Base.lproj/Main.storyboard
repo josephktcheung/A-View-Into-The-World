@@ -37,6 +37,11 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="button1" destination="bEr-FF-WIp" id="CgF-JP-UaM"/>
+                        <outlet property="button2" destination="6M7-Hy-Kds" id="7eI-aC-h2F"/>
+                        <outlet property="view1" destination="E9o-wE-HFJ" id="yEk-pq-f69"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
