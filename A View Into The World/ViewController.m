@@ -29,6 +29,13 @@
     [self.view addSubview:anotherButton];
     
     [myView removeFromSuperview];
+    
+    [anotherButton addTarget:self action:@selector(didPressButton:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)didPressButton:(UIButton *)button
+{
+    NSLog(@"I'm doing everything in code now!");
 }
 
 - (void)didReceiveMemoryWarning {
